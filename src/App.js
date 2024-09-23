@@ -12,7 +12,7 @@ function App({ state, dispatch }) {
   };
 
   return (
-    <main>
+    <main id="app">
       <p id="counter">{state}</p>
       <button id="incrementer" onClick={incrementerClicked}>
         +
