@@ -27,24 +27,17 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [View](https://datecounter3.netlify.app/)
+- Live Site URL: [View](https://counterredux924.netlify.app/)
 
 ## My process
 
-### Version 1:
-
-- This component manages a date counter with step and count states using useState.
-- It allows incrementing or decrementing the step value and updating the count accordingly.
-- The updateDate function calculates a new date based on the count changes, adjusting the displayed date accordingly.
-- The component renders buttons to adjust the step and count values and displays the calculated date based on the count.
-
-### Version 2:
-
-- This component implements another type of date counter with a slider input (range) and count state.
-- It uses useState to manage the count and range values.
-- The handleInput function updates the range state based on user input from the slider.
-- It calculates a new date based on the count and displays it dynamically, allowing the user to adjust the count with input fields and buttons.
-- The component includes a reset button to reset the count and range back to their initial values.
+- Import the `createStore()` helper function from the `'redux'` library.
+- Create a `store` object that holds the entire state of your Redux application using `createStore()`.
+- Get the current state of the `store` using `store.getState()`.
+- Dispatch actions to the `store` using `store.dispatch(action)`.
+- Create action creators to reduce the repetitive creation of action objects.
+- Register a change listener function to respond to changes to the store using `store.subscribe(listener)`.
+- Recognize the pattern for connecting Redux to any user interface.
 
 ### Built with
 
@@ -56,7 +49,7 @@ Users should be able to:
 
 ### What I learned
 
-This was a class project to learn about useState. I finally truly understand it now.
+This was a class project to learn core concepts of Redux.
 
 ### Continued development
 
