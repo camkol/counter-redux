@@ -46,6 +46,7 @@ Users should be able to:
 - Mobile-Responsive Design
 - JavaScript - Scripting language
 - [React](https://reactjs.org/) - JS library
+- [Redux](https://redux.js.org/) - JS library
 
 ### What I learned
 
